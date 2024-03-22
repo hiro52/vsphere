@@ -1,8 +1,8 @@
 ---
-collections:
-- name: community.vmware
-  version: ">=4.2.0" # Version range identifiers (default: ``*``)
-  source: https://galaxy.ansible.com # The Galaxy URL to pull the collection from (default: ``--api-server`` from cmdline)  
+#collections:
+#- name: community.vmware
+#  version: ">=4.2.0" # Version range identifiers (default: ``*``)
+#  source: https://galaxy.ansible.com # The Galaxy URL to pull the collection from (default: ``--api-server`` from cmdline)  
 #- name: ansible.posix
 #  version: ">=1.5.1" # Version range identifiers (default: ``*``)
 #  source: https://galaxy.ansible.com # The Galaxy URL to pull the collection from (default: ``--api-server`` from cmdline)
