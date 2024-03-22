@@ -4,7 +4,8 @@
   gather_facts: no
   tasks:
   - name: change VM snapshot status
-    community.vmware.vmware_guest_snapshot:
+#    community.vmware.vmware_guest_snapshot:
+    vmware_guest_snapshot:
       hostname: "{{lookup('env', 'VMWARE_HOST')}}"
       username: "{{lookup('env', 'VMWARE_USER')}}"
       password: "{{lookup('env', 'VMWARE_PASSWORD')}}"
