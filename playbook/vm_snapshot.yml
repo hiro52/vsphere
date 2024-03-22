@@ -10,6 +10,7 @@
       username: "{{lookup('env', 'VMWARE_USER')}}"
       password: "{{lookup('env', 'VMWARE_PASSWORD')}}"
       datacenter: DC
+      folder: /DC/vm
       name: "{{ vmname }}"
       snapshot_name: backup
       state: present
