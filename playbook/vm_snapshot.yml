@@ -1,0 +1,5 @@
+---
+- name: Manage snapshot (Create, Delete, Revert)
+  hosts: all
+  tasks:
+    - name: 
