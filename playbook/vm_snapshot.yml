@@ -14,5 +14,6 @@
       name: "{{ vmname }}"
       snapshot_name: backup
       state: "{{ snap_state }}"
+      memory_dump: true
       validate_certs: no
     delegate_to: localhost
